@@ -24,6 +24,9 @@ def main():
             break
         else:
             print("Invalid input")
+        elif choice == "4" :
+            count = int(input("Enter the number of quotes to display: "))
+            display_quotes(quotes, count)
 
 
 if __name__ == "__main__":
